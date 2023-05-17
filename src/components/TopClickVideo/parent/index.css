@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+
+.parent-container {
+
+    width: fit-content;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #bbbfca;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.child-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.top-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
